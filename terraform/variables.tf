@@ -29,7 +29,7 @@ variable "key" {
   description = ""
   default = {
     "name" = "terraform"
-    "pub"  = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3ozOQVNXcZUqmJVWGVD4BnANSdX9bPCTODHHt+Cl8QK7LIstoKIMKnOVjo28JQYdQamxxed1g9TR6WGVR0Of0E8EGINmpjgm2yCVdWoq56NNTXa40eWzjD66XYUzrEiia9MuFKBwjkO++ErR8DlGQ84XiiIo215hmviBrwOlu5NOqTsT6HzqnqjI/qY47yIVSvSovGRyrQRbK6P0yPzR105y0CQ5e5/XPa5/g+y03YQYo7N/Mjmr/xJB9hE8CgzmaQUsM9276ckDvr/CaBheNyqzdT9rvqd1bWPy5pkA2og7ZwdNtwNAtEFPTbGNaZkO9IoO0yNgT36p5s1QOoH2f gouravshah@Apples-MacBook-Pro-2.local"
+    "pub"  = "ssh-rsa QK7LIstoKIMKnOVjo28JQYdQamxxed1g9TR6WGVR0Of0E8EGINmpjgm2yCVdWoq56NNTXa40eWzjD66XYUzrEiia9MuFKBwjkO++ErR8DlGQ84XiiIo215hmviBrwOlu5NOqTsT6HzqnqjI/qY47yIVSvSovGRyrQRbK6P0yPzR105y0CQ5e5/XPa5/g+y03YQYo7N/Mjmr/xJB9hE8CgzmaQUsM9276ckDvr/CaBheNyqzdT9rvqd1bWPy5pkA2og7ZwdNtwNAtEFPTbGNaZkO9IoO0yNgT36p5s1QOoH2f gouravshah@Apples-MacBook-Pro-2.local"
   }
 
 }
@@ -39,7 +39,7 @@ variable "tags" {
   default = {
     "name" = "tf-frontend-01"
     "app"  = "devops-demo"
-    "maintainer" = "Gourav Shah"
+    "maintainer" = "Devops Admin"
     "role" = "frontend"
   }
 }
